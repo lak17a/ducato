@@ -1,0 +1,178 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiat Ducato</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/jquery.powertip-red.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="fixed">
+          <div class="contain-to-grid">
+            <nav class="top-bar" data-topbar="" data-options="sticky_on: large">
+              <ul class="title-area">
+                <!-- Title Area -->
+                <li class="name">
+                  <a href="#top"><img src="img/logo.png" /></a>
+                </li>
+                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+              </ul>
+              <section class="top-bar-section">
+
+                <!-- Right Nav Section -->
+                <ul class="right">
+                  <li class="hide-for-small"></li>
+                  <li class="menu1"><a href="#efektyvumas"><span class="hover">#.</span><span class="normal">_</span>Daugiau<br>efektyvumo</a></li>
+                  <li class="menu2"><a href="#verte"><span class="hover">%^</span><span class="normal">_</span>Daugiau<br>Vertės</a></li>
+                  <li class="menu3"><a href="#technologijos"><span class="hover">#*</span><span class="normal">_</span>Daugiau<br>technologijų</a></li>
+                  <li class="menu4"><a href="#galerija"><span class="hover">@></span><span class="normal">_</span>Nuotraukų<br>Galerija</a></li>
+                  <li class="has-dropdown not-click menu5">
+                    <a href="#"><span class="hover">€?_</span><span class="normal">_</span>atsisiųsti<br>katalogą</a>
+                    <ul class="dropdown">
+                      <li><a href="catalogs/Fiat Katalogas - Ducato Furgonas.pdf" target="_blank"><span class="hover">@</span><span class="normal"> </span>Ducato furgonas</a></li>
+                      <li><a href="catalogs/Fiat Katalogas - Ducato Keleivinis.pdf" target="_blank"><span class="hover">#</span><span class="normal"> </span>Ducato keleivinis</a></li>
+                      <li><a href="catalogs/Fiat Katalogas - Ducato Važiuoklė.pdf" target="_blank"><span class="hover">^</span><span class="normal"> </span>Ducato važiuoklė</a></li>
+                    </ul>
+                  </li>
+                  <li class="has-dropdown not-click menu5">
+                    <a href="#"><span class="hover">€?_</span><span class="normal">_</span>atsisiųsti<br>kainoraštį</a>
+                    <ul class="dropdown">
+                      <li><a href="catalogs/Fiat Katalogas - Ducato Furgonas.pdf" target="_blank"><span class="hover">@</span><span class="normal"> </span>Ducato furgonas</a></li>
+                      <li><a href="catalogs/Fiat Katalogas - Ducato Keleivinis.pdf" target="_blank"><span class="hover">#</span><span class="normal"> </span>Ducato keleivinis</a></li>
+                      <li><a href="catalogs/Fiat Katalogas - Ducato Važiuoklė.pdf" target="_blank"><span class="hover">^</span><span class="normal"> </span>Ducato važiuoklė</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu6"><a href="#kontaktai"><span class="hover">/+</span><span class="normal">_</span>Kontaktai</a></li>
+                </ul>
+              </section>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div name="top" data-interchange="[content/top/medium.html, (only screen and (max-width: 1170px))], [content/top/wide.html, (only screen and (min-width: 1170px))]"></div>
+  <div name="efektyvumas" data-interchange="[content/2/medium.html, (only screen and (max-width: 1170px))], [content/2/wide.html, (only screen and (min-width: 1170px))]"></div>
+  <div name="verte" data-interchange="[content/3/medium.html, (only screen and (max-width: 1170px))], [content/3/wide.html, (only screen and (min-width: 1170px))]"></div>
+  <div name="technologijos" data-interchange=" [content/4/medium.html, (only screen and (max-width: 1170px))], [content/4/wide.html, (only screen and (min-width: 1170px))]"></div>
+  <div name="galerija" data-interchange="[content/5/medium.html, (only screen and (max-width: 1170px))], [content/5/wide.html, (only screen and (min-width: 1170px))]"></div>
+  <div class="forma closed">
+    <div class="x closed">
+      <div class="x-didelis"></div>
+      <div class="x-mazas"></div>
+    </div>
+    <div class="gaukite closed">
+      <div class="pasiulymas"></div>
+    </div>
+    <div class="form">
+      <form action="" method="post" name="send_mail_by_city" id="forma">
+        <div class="input name"> <input name="name" type="text" required="" minlength="2" type="text" placeholder="Vardas ir pavardė"/></div>
+        <div class="input phone"> <input name="phone" type="digits" rangelength="[2,9]" required="" placeholder="Telefonas"/></div>
+        <div class="input email"> <input name="mail" type="email" required="" placeholder="vardas@domenas.lt"/></div>
+        <select name="city">
+      <option value="1">Vilnius</option>
+      <option value="2">Kaunas</option>
+      <option value="3">Klaipeda</option>
+    </select>
+    <input type="submit" value=""><br />
+    <input type="hidden" name="action" value="send_mail_by_city">
+</form>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="js/foundation/foundation.js"></script>
+  <script src="js/foundation/foundation.interchange.js"></script>
+   <script src="js/foundation/foundation.dropdown.js"></script>
+  <script src="js/foundation/foundation.topbar.js"></script>
+  <script src="js/vendor/jQuery-rwdImageMaps.js"></script>
+  <script src="js/vendor/map_rollover.js"></script>
+  <script src="js/vendor/jquery.powertip.min.js"></script>
+  <script src="js/vendor/jquery.validate.js"></script>
+  <script src="js/vendor/jQuery-maphilight.js"></script>
+  <link rel="stylesheet" href="pretty/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+  <script src="pretty/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+
+    <script>
+      $(document).foundation();
+      $('.top-bar a').click(function() {
+        if ($('.top-bar').hasClass('expanded')) {
+            $('.top-bar').removeClass('expanded');
+        }
+      });
+      $(".form").hide();
+      $('img').on('dragstart', function(event) { event.preventDefault(); });
+      $('.top-bar-section ul li > a').hover(function(){
+        $(this).find('.normal').hide();
+        $(this).find('.hover').fadeIn();
+      }, function(){ 
+        $(this).find('.normal').fadeIn();
+        $(this).find('.hover').hide();
+      });
+      $( ".closed" ).click(function() {
+      	if ( $( this ).hasClass( "closed" ) ) {
+	        $(".closed").removeClass("closed");
+	        $(".form").show();
+	        $( ".forma" ).animate({
+	          marginLeft: 0,
+	          left:0
+	        }, 1000, function() {
+	        	$(".x").addClass("open");
+	        });
+	    }
+      });
+      $( ".x" ).click(function() {
+       if ( $( this ).hasClass( "open" ) ) {
+		$( ".forma" ).animate({
+    		"margin-left": "-250px",
+	        "left":"100%"
+	    }, 1000, function() {
+	    	$(".x").removeClass("open").addClass("closed");
+	        $(".gaukite").addClass("closed");
+	        $(".form").hide();
+	    });
+	   }	
+	  	
+      });
+$("#forma").validate();
+$("#forma").submit(function() {
+
+    var url = "functions.php"; // the script where you handle the form input.
+
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#idForm").serialize(), // serializes the form's elements.
+           success: function(data)
+           {
+           		if($("#forma").valid()){
+           			$('.x').trigger("click");
+           		}
+           }
+         });
+
+    return false; // avoid to execute the actual submit of the form.
+});
+
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
